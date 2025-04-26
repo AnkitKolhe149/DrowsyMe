@@ -31,4 +31,5 @@ else:
     if st.sidebar.button("Logout"):
         st.session_state.logged_in = False
         st.session_state.user_type = None
+        st.session_state.username = None
         st.rerun()

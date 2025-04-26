@@ -7,3 +7,5 @@ mediapipe
 pandas
 matplotlib
 av
+bcrypt
+pymongo
